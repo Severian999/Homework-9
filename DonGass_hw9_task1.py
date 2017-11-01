@@ -15,7 +15,7 @@ total_cost = [(x/total_bars[i]) for i, x in enumerate(money_spent)]
 plt.plot(money_spent, total_cost, label="Averge cost of chocolate bar")
 plt.xlabel("Money spent (in $)")
 plt.ylabel("Average cost / bar")
-plt.title("Average Cost of Chocolate Bar")
+plt.title("Chocolate Bar Coupon Problem")
 plt.legend(shadow=True, loc="upper right")
 plt.savefig("task1_plot.png", dpi=300)
 
